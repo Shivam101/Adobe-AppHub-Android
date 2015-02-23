@@ -1,0 +1,122 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.shivam.apphub2.DetailsActivity">
+
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_card"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/productImage"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/productImage"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:text="Hello"
+        android:id="@+id/productName" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_below="@id/productName"
+        android:layout_marginLeft="10dp"
+        android:numStars="5"
+        android:id="@+id/productRating"
+        android:isIndicator="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productRating"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/productDescription"
+        android:text="Hello"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/productType"
+        android:layout_below="@id/productDescription"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="Hello"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="Hello"
+        android:id="@+id/productInApp"
+        android:layout_below="@id/productType"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="Hello"
+        android:id="@+id/productUpdate"
+        android:layout_below="@id/productInApp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Google Play"
+        android:drawablePadding="6dp"
+        android:paddingEnd="6dp"
+        android:paddingRight="6dp"
+        android:id="@+id/productLink"
+        android:paddingLeft="6dp"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_play_shopping_bag_white_24dp"
+        android:background="@color/primary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/productUpdate"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

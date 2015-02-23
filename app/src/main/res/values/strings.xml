@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App Hub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_details">Product Details</string>
+    <string name="title_activity_sms">Send SMS</string>
+    <string name="message_recepient">Who would you like to message ?</string>
+    <string name="title_activity_portfolio">Portfolio</string>
+
+</resources>
